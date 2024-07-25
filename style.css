@@ -1,0 +1,80 @@
+/* RESET CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; // uma largura só para toda a caixa
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('img/fundo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    padding: 20px;
+}
+
+
+/* Estilo para o cabeçalho */
+header {
+    background: linear-gradient(300deg, #052b68, #ea33b3);
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Arredondar os cantos */
+}
+
+
+/* Estilo para o título do cabeçalho */
+header h1 {
+    margin-left: 20px;
+}
+
+/* Estilo para o menu de navegação */
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    background-color: rgba(255, 255, 255, 0.6); /* Cor branca com 80% de opacidade */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Estilo para as seções */
+section {
+    margin-bottom: 20px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    border-radius: 15px;
+}
